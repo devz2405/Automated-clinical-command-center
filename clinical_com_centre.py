@@ -259,19 +259,45 @@ from sqlalchemy import create_engine
 # --- STREAMLIT DASHBOARD SECTION ---
 
 def get_data():
-    pg = st.secrets["postgres"]
-    conn_str = f"postgresql://{pg['user']}:{pg['password']}@{pg['host']}:{pg['port']}/{pg['database']}"
-    engine = sa.create_engine(conn_str)
-    # We pull the live dashboard view
-    return pd.read_sql("SELECT * FROM gold_clinical_command_center", engine)
+    """Smart data fetcher: Database first, CSV fallback for Demo Mode."""
+    try:
+        # Try Cloud/Local Database first
+        pg = st.secrets["postgres"]
+        conn_str = f"postgresql://{pg['user']}:{pg['password']}@{pg['host']}:{pg['port']}/{pg['database']}"
+        engine = sa.create_engine(conn_str)
+        return pd.read_sql("SELECT * FROM gold_clinical_command_center", engine)
+    except Exception:
+        # FALLBACK: If DB fails, load the CSV and simulate the 'Gold View'
+        st.sidebar.warning("⚠️ Running in Demo Mode (Local CSV)")
+        df_demo = pd.read_csv("patient_dim.csv")
+        
+        # Add some mock data so the table isn't empty in the demo
+        df_demo['current_hr'] = [random.randint(70, 110) for _ in range(len(df_demo))]
+        df_demo['current_spo2'] = [random.randint(92, 99) for _ in range(len(df_demo))]
+        df_demo['hr_slope'] = [round(random.uniform(-1, 2), 2) for _ in range(len(df_demo))]
+        df_demo['triage_priority'] = df_demo['hr_slope'].apply(lambda x: 'CRITICAL' if x > 1.5 else 'STABLE')
+        df_demo['last_updated'] = datetime.now().strftime("%Y-%m-%d %H:%M")
+        return df_demo
 
 def get_history(patient_id):
-    pg = st.secrets["postgres"]
-    conn_str = f"postgresql://{pg['user']}:{pg['password']}@{pg['host']}:{pg['port']}/{pg['database']}"
-    engine = sa.create_engine(conn_str)
-    # This pulls the HISTORICAL points so the line chart actually has data to plot!
-    query = f"SELECT timestamp, heart_rate FROM vitals_history WHERE patient_id = '{patient_id}' ORDER BY timestamp ASC"
-    return pd.read_sql(query, engine)
+    """Smart history fetcher: Database first, Simulated history fallback."""
+    try:
+        pg = st.secrets["postgres"]
+        conn_str = f"postgresql://{pg['user']}:{pg['password']}@{pg['host']}:{pg['port']}/{pg['database']}"
+        engine = sa.create_engine(conn_str)
+        query = f"SELECT timestamp, heart_rate FROM vitals_history WHERE patient_id = '{patient_id}' ORDER BY timestamp ASC"
+        return pd.read_sql(query, engine)
+    except Exception:
+        # FALLBACK: Generate 12 random points so the line chart shows up
+        start_time = datetime.now() - timedelta(hours=3)
+        mock_hist = []
+        base = random.randint(70, 90)
+        for i in range(12):
+            mock_hist.append({
+                "timestamp": start_time + timedelta(minutes=i*15),
+                "heart_rate": base + random.randint(-5, 5)
+            })
+        return pd.DataFrame(mock_hist)
 
 if __name__ == "__main__":
     st.markdown("""

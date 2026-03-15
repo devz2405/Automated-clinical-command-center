@@ -1,8 +1,9 @@
+streamlit>=1.31.0
 pandas
 numpy
 sqlalchemy
 psycopg2-binary
 faker
 scikit-learn
-streamlit
 plotly
+altair<5

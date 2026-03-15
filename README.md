@@ -1,5 +1,15 @@
 # 🏥 Automated Clinical Command Center & Predictive Triage Pipeline
 
+> **🔗 [Live Demo: Access the Interactive Dashboard Here](https://automated-clinical-command-center-ukbxtwziajztwbxxbxdlnv.streamlit.app/)**
+
+## 🌟 Project Impact
+This project bridges the gap between raw laboratory data and bedside clinical decision-making. By automating a high-velocity data pipeline, this system identifies at-risk patients using predictive "Heart Rate Slope" analysis, allowing clinicians to intervene **before** vital signs reach critical thresholds. 
+
+As a Clinical Data Specialist, I developed this tool to demonstrate how **PostgreSQL automation** and **Machine Learning** can be integrated into existing hospital workflows to improve patient safety and data integrity.
+
+
+# 🏥 Automated Clinical Command Center & Predictive Triage Pipeline
+
 ## 🌟 Project Overview
 This project is a full-stack Healthcare Data Engineering and Analytics solution. It automates the ingestion, processing, and visualization of patient vitals to provide a real-time **Clinical Command Center**. 
 

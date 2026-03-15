@@ -1,0 +1,501 @@
+patient_id,name,age,gender,blood_type,condition
+P500,Kevin Mcneil,33,Female,A+,Critical Care
+P501,Susan Foster,48,Other,O+,Observation
+P502,Brandon Chan,73,Female,AB+,Critical Care
+P503,Carla Gallegos,48,Other,O+,Critical Care
+P504,Jennifer Walker,53,Female,B+,Critical Care
+P505,Joshua Nelson,89,Other,AB-,Stable
+P506,Andre Davis,36,Female,B-,Critical Care
+P507,Terri Chambers,73,Male,AB-,Stable
+P508,Jonathan Rose,52,Other,O+,Observation
+P509,Christopher Garcia,74,Other,AB-,Critical Care
+P510,Taylor Jones,48,Female,AB-,Critical Care
+P511,Lynn Lynch,66,Female,B-,Critical Care
+P512,Tiffany Mccarthy,28,Other,B+,Stable
+P513,Gary Esparza,49,Female,AB-,Post-Op
+P514,Daniel Johnson,60,Female,AB-,Critical Care
+P515,Ashley Hines,61,Male,B+,Post-Op
+P516,Jonathan Warren,45,Other,A+,Critical Care
+P517,Christopher Haynes,36,Male,AB+,Observation
+P518,Charles Payne,41,Other,AB+,Post-Op
+P519,Kenneth Owen,66,Female,AB-,Critical Care
+P520,Sarah Holt,67,Other,O-,Post-Op
+P521,Brett Hernandez,63,Female,AB-,Observation
+P522,Kevin Clark,73,Male,A+,Observation
+P523,Lisa Welch,50,Female,B+,Stable
+P524,Calvin Carrillo,68,Female,A+,Stable
+P525,Charles Campbell,90,Male,A-,Observation
+P526,Brittany Peck,47,Male,O-,Observation
+P527,Alicia Hinton,69,Male,B+,Observation
+P528,Bryce Nelson,42,Female,AB+,Observation
+P529,Stephen Porter DDS,51,Male,B+,Critical Care
+P530,Jonathan George,73,Female,B+,Critical Care
+P531,Kyle Allen,65,Other,O+,Post-Op
+P532,Amy Marshall,65,Female,AB+,Critical Care
+P533,Phillip Lopez,27,Male,B-,Post-Op
+P534,Amanda Campbell,76,Male,B+,Stable
+P535,Lauren Collins,87,Female,A+,Stable
+P536,Nicole Chan,87,Other,A-,Stable
+P537,Megan Ingram,35,Other,A+,Observation
+P538,Ronald Ortiz,60,Female,O-,Post-Op
+P539,Heather Hernandez,32,Female,A+,Observation
+P540,Matthew Reilly,78,Male,O-,Stable
+P541,Brian Valdez,67,Other,B-,Critical Care
+P542,Patricia Gray,48,Other,AB+,Observation
+P543,Chelsea Ochoa,19,Female,B+,Post-Op
+P544,Tabitha Barker,30,Other,AB+,Stable
+P545,Robert Ross,39,Male,A+,Post-Op
+P546,Regina Brown,87,Female,O-,Critical Care
+P547,Robert Alvarado,25,Other,A+,Observation
+P548,Kayla Neal,77,Other,A-,Observation
+P549,Scott Ho,84,Other,B+,Observation
+P550,Michael Gonzalez,67,Female,A+,Critical Care
+P551,Andrea Anderson,28,Female,AB-,Post-Op
+P552,Cameron Andrews,86,Female,O-,Critical Care
+P553,Barbara Collins,67,Male,AB+,Stable
+P554,Jesse Peterson,60,Female,B+,Stable
+P555,Todd Johnson,26,Male,O-,Observation
+P556,Bonnie Serrano,67,Male,A-,Critical Care
+P557,Nathan Sims,83,Female,B+,Critical Care
+P558,Hannah Green,74,Other,B+,Stable
+P559,Christopher Wagner,76,Female,B-,Stable
+P560,Eric Peterson,24,Other,O+,Observation
+P561,Jessica Rush,50,Female,AB-,Post-Op
+P562,John Perez,34,Other,B+,Stable
+P563,Tina Hernandez,52,Female,B+,Post-Op
+P564,Benjamin Arias,67,Female,A-,Post-Op
+P565,Summer Hale,37,Male,B-,Observation
+P566,Jason Johnston,65,Other,B+,Observation
+P567,Jonathan Parker,41,Female,B-,Observation
+P568,Anna Mccarthy,85,Male,B+,Stable
+P569,Susan Holland,39,Male,A+,Observation
+P570,Taylor Turner,63,Female,AB+,Observation
+P571,David George,42,Other,AB-,Stable
+P572,Wesley Garcia,60,Other,AB+,Critical Care
+P573,Jocelyn Gonzalez,53,Other,B+,Post-Op
+P574,Brandon Dennis,64,Other,B+,Post-Op
+P575,Jessica Williams,39,Male,A+,Stable
+P576,Jesus Clark,39,Other,A+,Critical Care
+P577,Courtney Aguirre,55,Female,A+,Observation
+P578,Jonathan Reilly,75,Other,A-,Observation
+P579,Ronald Hill,81,Other,AB+,Observation
+P580,Blake Stanton,37,Male,AB+,Stable
+P581,Adam Ramirez,65,Other,B+,Stable
+P582,Matthew Sanford,41,Female,A+,Critical Care
+P583,Jonathan Crawford,75,Other,O+,Post-Op
+P584,Derrick Goodman,45,Male,AB-,Post-Op
+P585,Raymond Jackson,52,Female,B-,Post-Op
+P586,Chad Grant,42,Other,A-,Post-Op
+P587,Pamela Carroll DDS,34,Other,B+,Observation
+P588,Matthew Salazar,77,Male,A-,Stable
+P589,Heather Porter,77,Other,B+,Stable
+P590,David Garcia,79,Male,AB+,Post-Op
+P591,Terry Stuart,79,Male,AB-,Observation
+P592,Pamela Lewis,49,Male,AB+,Observation
+P593,Victoria Bell,59,Male,AB+,Critical Care
+P594,Leah Black,71,Other,AB-,Post-Op
+P595,Claudia Mcdonald,39,Male,O-,Stable
+P596,Sandra Joseph,42,Female,O-,Critical Care
+P597,Kimberly Jackson,22,Female,B-,Stable
+P598,Antonio Lawrence,62,Other,AB-,Observation
+P599,Alexander Burnett,47,Other,B+,Observation
+P600,Glenn Nunez,79,Other,O+,Critical Care
+P601,Dr. Thomas Pugh PhD,68,Other,O+,Stable
+P602,Mike Myers,54,Male,B-,Post-Op
+P603,Maria Mitchell,72,Male,O+,Observation
+P604,Bruce Little,88,Female,A+,Stable
+P605,David Brown,58,Female,O-,Observation
+P606,Corey Knight,35,Other,O+,Stable
+P607,Leah Briggs,63,Male,AB-,Critical Care
+P608,Kathleen Ellis,83,Female,AB+,Stable
+P609,Leah Daniels,20,Female,AB+,Post-Op
+P610,John Campbell,62,Female,B+,Observation
+P611,Dr. Barbara Terrell,81,Male,A-,Critical Care
+P612,Ashley Allen,40,Other,AB+,Post-Op
+P613,Timothy Ramirez,32,Other,A+,Observation
+P614,Kenneth Holloway,55,Female,AB+,Critical Care
+P615,Charles Farmer,20,Female,AB-,Stable
+P616,Craig Thomas,70,Other,B+,Observation
+P617,Sally Gilbert,60,Other,B-,Observation
+P618,Donald Romero,24,Female,O+,Critical Care
+P619,Mr. Gregory Arnold,88,Female,AB+,Stable
+P620,Anthony Sanchez,78,Other,B+,Stable
+P621,Debra Garcia,65,Other,O+,Post-Op
+P622,Kathryn Mitchell,41,Other,O-,Post-Op
+P623,Randy Adams,62,Male,AB-,Stable
+P624,Angela Smith,82,Other,B+,Critical Care
+P625,Emily Ramos,45,Female,AB-,Observation
+P626,Allison Ball,87,Female,B+,Critical Care
+P627,Geoffrey Mason,28,Male,B+,Critical Care
+P628,Lori Lowe,47,Female,O-,Stable
+P629,Lisa Ward,45,Male,AB+,Stable
+P630,Valerie Garcia,57,Other,AB+,Stable
+P631,Kathleen Greene,67,Other,AB+,Critical Care
+P632,Becky Knox,69,Female,O-,Critical Care
+P633,Stephen Avila,86,Other,A-,Critical Care
+P634,Steven Rivers,24,Other,O+,Stable
+P635,Sarah Taylor,81,Female,A-,Stable
+P636,Brian Watts,79,Female,O-,Stable
+P637,Heather Reid,33,Female,B-,Stable
+P638,Ashley Grant,33,Male,A+,Stable
+P639,John Dunn,72,Other,O-,Critical Care
+P640,Daniel Nguyen,60,Female,O-,Observation
+P641,Andrea Cohen,31,Male,AB+,Observation
+P642,Diana Herman,39,Other,AB-,Observation
+P643,Karen Russo,48,Female,O+,Critical Care
+P644,Kelly King,25,Female,A+,Observation
+P645,Julie Smith,47,Male,B+,Observation
+P646,Toni Coleman,90,Male,B+,Stable
+P647,Anthony Dunn,44,Male,B-,Critical Care
+P648,Brenda Wright,54,Male,B+,Observation
+P649,Dale Winters,44,Female,AB+,Critical Care
+P650,Brittany Brown,83,Female,B-,Observation
+P651,Alyssa Perez,62,Male,B-,Stable
+P652,Danielle Morton,73,Male,A-,Stable
+P653,Steven Lambert,59,Female,A-,Critical Care
+P654,Jessica Marsh,48,Other,A+,Post-Op
+P655,John Clark,58,Female,O+,Observation
+P656,Stephanie Wilson,40,Other,A-,Observation
+P657,Stephanie Kennedy,28,Other,O+,Stable
+P658,Michael Ryan,50,Male,AB+,Post-Op
+P659,Shari Mckee,49,Other,B+,Post-Op
+P660,Yolanda Dixon,54,Female,B-,Stable
+P661,Travis Hernandez,47,Male,A-,Stable
+P662,Dana Johnson,22,Male,AB-,Stable
+P663,Jose Spencer,35,Male,A+,Observation
+P664,Amanda Fitzgerald,60,Other,A+,Critical Care
+P665,Jacqueline Mccoy,89,Male,B+,Post-Op
+P666,Matthew Walsh,78,Other,AB+,Stable
+P667,Nichole Roach,21,Female,O-,Critical Care
+P668,John Davis,78,Other,O+,Observation
+P669,Christine Contreras,46,Male,B+,Post-Op
+P670,Vicki Johnson,39,Other,B-,Critical Care
+P671,Jose White,18,Female,O+,Post-Op
+P672,Michael Jones,51,Female,AB-,Post-Op
+P673,Dr. Heather Wilson,36,Male,O-,Stable
+P674,Bonnie Wells,78,Female,AB-,Critical Care
+P675,Lauren Boyd,19,Other,O-,Stable
+P676,James Jackson,84,Female,O+,Stable
+P677,Jason Freeman,45,Female,AB+,Observation
+P678,Linda Jones,81,Other,O+,Critical Care
+P679,Rebecca Garcia,89,Female,B-,Observation
+P680,Katherine Hughes,83,Other,O-,Critical Care
+P681,Ms. Jennifer Chambers,34,Female,O-,Observation
+P682,Juan Perry,87,Other,B-,Post-Op
+P683,Michelle Miller,45,Female,B+,Observation
+P684,Robert Jacobs,38,Other,B+,Critical Care
+P685,David Mullins,65,Other,O-,Stable
+P686,Mark Gonzalez,20,Female,B-,Post-Op
+P687,Jessica Lane,28,Other,AB-,Critical Care
+P688,Angela Jones,31,Female,AB+,Stable
+P689,William Johnson,74,Other,B-,Stable
+P690,Brandon Scott,77,Female,O+,Post-Op
+P691,Stephanie Shaw,82,Female,B-,Post-Op
+P692,Rhonda Mendoza,32,Female,O+,Stable
+P693,Kelly Miller,46,Other,O+,Observation
+P694,Derek Martinez Jr.,70,Female,A-,Post-Op
+P695,Luis Mitchell,28,Male,AB-,Stable
+P696,Stephanie Franklin,38,Female,B+,Post-Op
+P697,Joshua Ellis,50,Other,B-,Critical Care
+P698,Alejandro Johnson,56,Female,O+,Observation
+P699,Jessica Ramirez,43,Other,O-,Observation
+P700,Kristine Frazier,51,Female,O-,Observation
+P701,Mr. Timothy Anderson,75,Other,A-,Observation
+P702,Jennifer Peterson,25,Male,A-,Critical Care
+P703,Ryan Webb,82,Other,O-,Observation
+P704,Megan Wong,71,Other,O-,Observation
+P705,John Jordan,55,Male,O+,Post-Op
+P706,Patrick Myers,74,Female,AB+,Observation
+P707,Matthew Daugherty,70,Female,AB+,Post-Op
+P708,Michael Hendricks,28,Male,O+,Critical Care
+P709,Amber Davis,56,Other,AB-,Critical Care
+P710,Daniel Bailey,90,Male,O-,Post-Op
+P711,Terri Lopez,47,Other,A-,Stable
+P712,Andrea Lopez,27,Male,B-,Post-Op
+P713,Robin Harper,28,Female,B-,Observation
+P714,Maria Powers,66,Female,AB+,Post-Op
+P715,Vanessa Wright,75,Other,AB-,Observation
+P716,Gabriella Patrick,88,Male,AB-,Stable
+P717,Christine Hendricks,61,Other,B-,Observation
+P718,Patrick Harding,69,Female,O-,Critical Care
+P719,Chad Foster,40,Female,A-,Observation
+P720,Tammy Graves,67,Male,AB+,Stable
+P721,Cameron Petty,57,Male,O+,Stable
+P722,Justin Wong,23,Male,O+,Stable
+P723,Erin Reyes DVM,71,Other,O-,Post-Op
+P724,Lisa Ball,29,Male,A-,Stable
+P725,Jerry Dixon,51,Other,O-,Stable
+P726,Catherine Cruz,43,Female,A-,Post-Op
+P727,Kayla Smith,69,Female,B+,Critical Care
+P728,Kathleen Stewart,68,Male,A+,Observation
+P729,Victoria Johnson,65,Female,O+,Critical Care
+P730,Christopher Garcia,62,Female,AB-,Observation
+P731,Jeremy Bryant,33,Other,O-,Observation
+P732,Amanda Love,36,Female,AB-,Stable
+P733,Tiffany Gonzales,84,Female,A+,Critical Care
+P734,Gregory Mooney,36,Female,B-,Critical Care
+P735,Kyle Williams,58,Female,O+,Post-Op
+P736,Sean Torres,40,Female,A-,Critical Care
+P737,Mary Jackson,21,Other,O+,Post-Op
+P738,Carlos Burton,32,Male,A+,Observation
+P739,Julie Reynolds,89,Other,A+,Post-Op
+P740,Bradley Herrera,27,Female,O-,Stable
+P741,Shelia Sloan,79,Female,A-,Post-Op
+P742,Michael Barker,80,Male,O+,Stable
+P743,Ryan Robinson,41,Male,B-,Post-Op
+P744,Elizabeth Gutierrez,29,Female,O+,Critical Care
+P745,Kaitlin Douglas,22,Other,O-,Post-Op
+P746,Sierra Scott,18,Male,B-,Stable
+P747,Robert Simpson,46,Male,O-,Stable
+P748,Frank Adams,22,Other,AB+,Observation
+P749,Ernest Holland,69,Male,AB+,Observation
+P750,Daniel Ortiz,53,Other,B+,Critical Care
+P751,Jeffrey Jones,79,Female,O-,Post-Op
+P752,Jacob Richardson,50,Female,B-,Critical Care
+P753,Robin Bailey DDS,70,Other,B+,Stable
+P754,Mia Valdez,30,Male,A-,Stable
+P755,Javier Ballard,54,Female,O+,Critical Care
+P756,Dana Russell,69,Male,A-,Observation
+P757,Joshua Miller MD,47,Male,O+,Observation
+P758,William Weeks,29,Other,A+,Critical Care
+P759,Austin Anderson,35,Male,AB+,Critical Care
+P760,Christopher Shepard,22,Other,A-,Post-Op
+P761,Shane Bowers,27,Female,AB-,Stable
+P762,Tracey Miller,84,Other,O-,Stable
+P763,Angela Guerra,45,Male,B+,Observation
+P764,Leslie Williams,90,Male,O+,Post-Op
+P765,Shannon Sims,22,Female,O-,Stable
+P766,Kathleen Ramos,80,Male,A-,Observation
+P767,Elizabeth Fletcher,68,Other,B-,Post-Op
+P768,William Becker,32,Female,A+,Observation
+P769,Frank Davis,71,Other,A-,Post-Op
+P770,Daniel Hamilton,85,Male,AB-,Critical Care
+P771,Jonathan Walker,36,Other,A-,Observation
+P772,Lauren Terrell,65,Other,AB-,Post-Op
+P773,Brandon Alexander,87,Other,B-,Observation
+P774,Antonio Smith,25,Male,B+,Stable
+P775,Sierra Tucker,43,Other,B-,Critical Care
+P776,James Cohen,47,Female,B+,Stable
+P777,Tyler Carter,28,Female,B-,Stable
+P778,James Smith,48,Other,A+,Critical Care
+P779,Jacqueline Richardson,23,Female,B+,Critical Care
+P780,Gabrielle Savage,26,Female,B-,Observation
+P781,Kayla Moore,71,Other,A-,Stable
+P782,Michael Carlson,46,Other,O+,Post-Op
+P783,Thomas Foster,84,Other,A+,Post-Op
+P784,Rodney Bennett,75,Other,A+,Observation
+P785,Donna Martin,80,Male,O-,Observation
+P786,Robert Anderson,69,Other,A-,Stable
+P787,Steven Lang,60,Female,O+,Stable
+P788,Michelle Gross,69,Female,A+,Critical Care
+P789,Hayley Myers,45,Female,AB+,Stable
+P790,Christopher Brown,29,Female,A+,Stable
+P791,Elizabeth Campbell,28,Other,O-,Post-Op
+P792,Rebecca Dickerson,79,Male,B-,Observation
+P793,Ashley Marshall,74,Female,O-,Post-Op
+P794,Ryan Oconnor,68,Male,O-,Stable
+P795,Dominique Adams,36,Female,B+,Critical Care
+P796,Stephen Sutton,37,Female,A+,Post-Op
+P797,Brian Daniel,62,Male,O-,Critical Care
+P798,Dana Castillo,73,Other,A+,Observation
+P799,Charles Taylor,50,Male,AB+,Observation
+P800,Jeffrey Garcia,64,Female,B+,Observation
+P801,Carolyn Wilson,84,Male,B+,Observation
+P802,Travis Kirby,84,Female,B-,Post-Op
+P803,Dr. Andrew Santiago,66,Other,B-,Stable
+P804,Derrick Chambers,39,Female,AB-,Observation
+P805,Veronica Jones,28,Male,B+,Critical Care
+P806,Justin Rodriguez,26,Male,O+,Observation
+P807,Gregory Price,85,Female,A+,Post-Op
+P808,Lisa Montgomery,87,Male,AB-,Observation
+P809,Shawn Jefferson,78,Other,O+,Observation
+P810,Derrick Garcia,66,Male,A+,Stable
+P811,Joshua Hickman,46,Male,AB+,Post-Op
+P812,Robin Thomas,85,Male,B+,Observation
+P813,Gregg Clark,66,Male,AB-,Post-Op
+P814,Eric Murphy,56,Other,B+,Stable
+P815,Stephanie Jones,39,Other,B+,Post-Op
+P816,Stacy Cabrera,85,Female,O+,Observation
+P817,Donald Fields,18,Male,O-,Post-Op
+P818,Catherine Walker,87,Other,A-,Post-Op
+P819,Joseph Vargas,48,Male,AB-,Stable
+P820,Henry Gutierrez,81,Other,AB+,Post-Op
+P821,William Lopez,90,Male,AB+,Stable
+P822,Connie Scott,54,Female,AB-,Observation
+P823,Justin Espinoza MD,83,Other,O+,Observation
+P824,Elizabeth Davis,29,Other,AB-,Critical Care
+P825,Anna Mcclain,69,Female,AB+,Post-Op
+P826,Jennifer James,44,Female,B-,Critical Care
+P827,Garrett Mcfarland,58,Male,A+,Stable
+P828,Aaron Gonzalez,25,Female,O+,Observation
+P829,Lauren Baldwin,24,Female,A-,Post-Op
+P830,Christina Dennis,22,Female,AB+,Stable
+P831,Mikayla Hensley,53,Other,A-,Post-Op
+P832,Deborah Walker,58,Other,AB+,Post-Op
+P833,Rebecca Miller,58,Female,AB+,Post-Op
+P834,Eric Chambers,22,Other,A-,Critical Care
+P835,Jason Rodriguez,39,Female,A-,Stable
+P836,Elizabeth Fisher,20,Other,A-,Observation
+P837,Shawn Santos,23,Other,B-,Post-Op
+P838,Harold Kirby,84,Other,O+,Observation
+P839,Joseph Phillips,84,Female,A+,Observation
+P840,Cynthia Hughes,18,Female,A-,Critical Care
+P841,Shannon Mcmillan,27,Other,AB-,Post-Op
+P842,Jade Ford,79,Female,O+,Post-Op
+P843,Kayla Stout,55,Other,B-,Post-Op
+P844,Linda Rodriguez,87,Female,B+,Stable
+P845,Veronica Nelson,83,Female,O-,Post-Op
+P846,Erica Wood,35,Female,A-,Stable
+P847,Ryan Nelson,38,Male,A+,Observation
+P848,Cheryl Anderson,79,Male,B+,Post-Op
+P849,Robert Edwards,50,Female,A+,Stable
+P850,Teresa Macias,66,Male,B-,Critical Care
+P851,Kevin Ruiz,51,Male,AB+,Stable
+P852,Kristina Collins,64,Other,O+,Observation
+P853,Elizabeth Lee,26,Female,B+,Critical Care
+P854,Vanessa Henry,89,Other,B+,Observation
+P855,Jeffrey Macdonald,44,Other,A-,Observation
+P856,Adriana Parks,86,Female,B-,Observation
+P857,Lori Brown,86,Other,AB+,Post-Op
+P858,Courtney Baxter,40,Male,AB+,Post-Op
+P859,Jaime Cummings,55,Male,O+,Critical Care
+P860,Vanessa Cook,75,Female,O+,Post-Op
+P861,Terri Clark,67,Other,B-,Observation
+P862,Debbie Reid,81,Female,B-,Critical Care
+P863,Rebecca Hoover,77,Female,AB+,Stable
+P864,Ryan Curry,55,Other,A+,Stable
+P865,Shirley Stevens,48,Other,O-,Observation
+P866,Richard Douglas MD,76,Other,AB-,Observation
+P867,Gregory Nelson,35,Male,O+,Stable
+P868,Elaine Garcia,69,Male,AB-,Post-Op
+P869,Miguel Bowman,78,Female,AB-,Observation
+P870,Rebecca Harvey,81,Male,A-,Critical Care
+P871,Maxwell Myers,79,Female,AB+,Critical Care
+P872,Lisa Tanner,89,Female,O+,Observation
+P873,Tracy Chan,48,Male,AB+,Critical Care
+P874,Patrick Mayer,85,Male,O-,Stable
+P875,Juan Mcgrath,62,Other,AB+,Observation
+P876,Jessica Pollard,42,Male,O-,Stable
+P877,Travis Baxter,59,Other,AB-,Observation
+P878,Paul Marshall,43,Male,B-,Observation
+P879,Erin Jacobson MD,23,Male,A+,Critical Care
+P880,Julie Jones,43,Other,O+,Observation
+P881,Justin Hunt,48,Male,O-,Post-Op
+P882,John Avila,86,Female,O-,Post-Op
+P883,Brandi Murphy,64,Male,A+,Critical Care
+P884,Gary Casey,42,Male,AB-,Critical Care
+P885,Amanda Davis,40,Female,O+,Stable
+P886,Michael Ritter,35,Female,A-,Critical Care
+P887,Benjamin Parker,72,Other,A+,Post-Op
+P888,Mary Gutierrez,18,Female,A-,Stable
+P889,Edwin Smith,25,Male,A-,Post-Op
+P890,Joel Griffin,45,Female,O-,Stable
+P891,Michael Mullen,35,Male,A-,Observation
+P892,Curtis Hendrix,84,Male,A+,Critical Care
+P893,Toni White,63,Female,B+,Post-Op
+P894,Erika Hurley,39,Male,B+,Stable
+P895,Mario Johnson,69,Other,AB-,Critical Care
+P896,Evan Christian,57,Male,B+,Critical Care
+P897,Mark Velazquez,84,Other,B-,Observation
+P898,Marcus Estrada,50,Female,A-,Observation
+P899,Scott Reyes,61,Other,AB+,Stable
+P900,Mark Campbell,41,Other,B-,Stable
+P901,Shannon Harvey,19,Other,O+,Stable
+P902,Shari Edwards,64,Female,A+,Critical Care
+P903,Barbara Nicholson DDS,53,Male,O-,Observation
+P904,Richard Hamilton,25,Male,B+,Stable
+P905,Brent Shannon,40,Other,B-,Critical Care
+P906,Lawrence Chang,86,Other,AB-,Stable
+P907,Keith King,85,Other,O-,Post-Op
+P908,Kari Richardson MD,86,Male,B+,Observation
+P909,Dr. Christina Gibson,79,Other,B-,Post-Op
+P910,Melissa Singleton,45,Female,AB+,Post-Op
+P911,Meghan Richardson,40,Other,AB+,Observation
+P912,Angela Travis,59,Other,O+,Post-Op
+P913,Jessica Dorsey,69,Other,AB+,Critical Care
+P914,Mary Hoffman,62,Female,A+,Critical Care
+P915,Jesse Brown,87,Other,A+,Stable
+P916,Brenda Novak,29,Female,A+,Critical Care
+P917,David Walters,42,Female,O+,Stable
+P918,William Lee,44,Other,O+,Post-Op
+P919,Walter Murphy,25,Female,O+,Post-Op
+P920,Ronald Harrison,63,Male,A+,Critical Care
+P921,Lynn Adams,36,Male,AB-,Observation
+P922,Justin Tran,57,Male,AB+,Post-Op
+P923,Roger Klein,70,Female,AB+,Stable
+P924,Melissa Thompson,22,Other,AB+,Stable
+P925,Felicia Fleming,72,Male,B+,Critical Care
+P926,George Gardner,48,Female,A+,Critical Care
+P927,Daniel Williams,28,Male,AB-,Critical Care
+P928,Carrie Gordon,58,Male,B+,Critical Care
+P929,Bryan Moore,38,Female,A+,Stable
+P930,Kevin Bailey,22,Female,A+,Post-Op
+P931,Robert Butler,26,Female,A-,Post-Op
+P932,Eric Walker,73,Male,B+,Observation
+P933,Michele Vaughn,84,Female,O+,Critical Care
+P934,Caitlyn Allen,81,Other,B-,Critical Care
+P935,Matthew Butler,19,Other,B-,Post-Op
+P936,Cameron Snyder,29,Male,A-,Stable
+P937,Sheri Zamora,26,Female,A+,Observation
+P938,Stacy Lucas,54,Female,O-,Critical Care
+P939,Rebecca Bailey,55,Female,O+,Observation
+P940,Michael Palmer,72,Male,A-,Stable
+P941,John Martin,31,Other,O+,Observation
+P942,Thomas Merritt,50,Other,O-,Critical Care
+P943,Samantha Barajas,69,Female,AB-,Stable
+P944,Kevin Rice,49,Other,A-,Critical Care
+P945,Adam Ortega,53,Other,O+,Critical Care
+P946,Amanda Nichols,79,Other,AB-,Critical Care
+P947,Susan Grant,63,Male,A+,Post-Op
+P948,Kerry Smith,48,Female,O+,Post-Op
+P949,Christopher Vasquez,42,Other,B+,Critical Care
+P950,Stephanie Williams,61,Other,B-,Stable
+P951,Fernando Nguyen,46,Male,B-,Observation
+P952,Erin Pacheco,64,Female,B+,Observation
+P953,Donna Ali,56,Female,A+,Stable
+P954,Ashley Holland,27,Female,AB-,Post-Op
+P955,Norma Rice,47,Female,AB+,Stable
+P956,Yolanda Brady,76,Other,O+,Observation
+P957,Linda Ward,87,Female,O+,Critical Care
+P958,Deborah Wells,43,Female,B+,Observation
+P959,Lisa Erickson,85,Male,O+,Critical Care
+P960,Kathryn Joseph,51,Other,AB+,Stable
+P961,Robert Howard,74,Other,AB+,Observation
+P962,Jennifer Waters,48,Other,AB-,Observation
+P963,Jennifer Martin,71,Male,A-,Stable
+P964,Angie Coleman,88,Female,AB-,Observation
+P965,Philip Barron,44,Male,AB-,Stable
+P966,Christy Ford,28,Male,B+,Post-Op
+P967,Mr. William Davenport,76,Male,AB+,Observation
+P968,Michelle Dominguez,38,Female,O-,Critical Care
+P969,Laura Lopez,29,Other,A-,Stable
+P970,Stacey Patton,60,Female,AB-,Post-Op
+P971,Luis Novak,61,Male,AB-,Critical Care
+P972,Robert Thomas,39,Male,AB-,Observation
+P973,Mariah Delacruz,45,Female,O+,Observation
+P974,Sandra Larson,84,Other,AB+,Post-Op
+P975,Hannah Ali,86,Male,O-,Critical Care
+P976,Judith Thornton,39,Other,O-,Post-Op
+P977,Eric Kelley,75,Male,AB+,Observation
+P978,Randall Norris,20,Other,A+,Stable
+P979,Christian Mccormick,42,Other,B+,Post-Op
+P980,Brent Cunningham,18,Other,B+,Stable
+P981,Nichole Hopkins,66,Male,AB-,Post-Op
+P982,Alyssa Huynh,59,Male,AB+,Stable
+P983,Russell Swanson,53,Female,A+,Critical Care
+P984,Terry Wilson DDS,53,Female,B+,Post-Op
+P985,Sydney Anderson,63,Male,O+,Post-Op
+P986,Robert Hamilton,71,Other,B+,Critical Care
+P987,Cathy Wagner,21,Male,B+,Critical Care
+P988,Jose Jones,81,Other,AB-,Stable
+P989,Benjamin Ewing,53,Female,A+,Critical Care
+P990,Luis Orozco,33,Other,O-,Stable
+P991,Kara Mckay,56,Female,A-,Critical Care
+P992,Sara Miller DDS,63,Female,O-,Critical Care
+P993,Jane Vasquez,21,Female,AB+,Post-Op
+P994,Richard Sutton,80,Male,AB-,Critical Care
+P995,Suzanne Bailey MD,41,Female,AB-,Observation
+P996,Sara Palmer,25,Other,O+,Post-Op
+P997,Katherine Long,66,Other,B+,Post-Op
+P998,Susan Wright,75,Female,AB-,Critical Care
+P999,Elizabeth Daniels,39,Other,B+,Stable
